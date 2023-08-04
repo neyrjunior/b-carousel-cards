@@ -11,14 +11,19 @@
             display: flex;
             flex-direction: column;
         }
+        .carousel-item img {
+            height: 90vh;
+            width: 90vw;
+            max-width: 1000px;
+        }
     </style>
 </head>
 <body>
     <div id="conteudo">
-        <div id="carro" class="container">
+        <div class="container">
             <div class="carousel carousel-fade slide" data-bs-ride="carousel">
-                <div class="corousel-inner d-block">
-                    <div data-bs-interval="3000" class="carousel-item active">
+                <div class="corousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item  active">
                         <img src="https://media.istockphoto.com/id/1323000096/pt/foto/roller-coaster-high-in-the-summer-sky-at-theme-park-most-excited-fun-and-joyful-playing-machine.jpg?s=1024x1024&w=is&k=20&c=_s4x96N9aX38ARjZub2LzvsQBFT6CAG3DDis_FqGkU4=" alt="">
                     </div>
                     <div data-bs-interval="3000" class="carousel-item">
